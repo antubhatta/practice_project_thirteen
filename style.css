@@ -4,3 +4,126 @@
     margin: 0;
     padding: 0;
 }
+.btn-primary{
+    padding: 17px 24px;
+    color: rgb(255, 255, 255);
+font-size: 1.2rem;
+font-weight: 600;
+border: none;
+background-color: #FF900E;
+border-radius: 8px;
+}
+/* header related styles */
+.header-container{
+background: rgba(255, 144, 14, 0.1);
+padding: 50px 240px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav li{
+    list-style-type: none;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+font-size: 1rem;
+font-weight: 500;
+}
+.nav-logo{
+    color: rgb(19, 19, 19);
+font-size: 3rem;
+font-weight: 700;
+}
+/* banner related styles */
+.banner-title{
+    color: rgb(19, 19, 19);
+font-size: 4rem;
+font-weight: 700;
+text-align: center;
+padding-top: 90px;
+}
+.banner-desc{
+    color: rgb(114, 114, 114);
+font-size: 1rem;
+font-weight: 400;
+width: 850px;
+margin: 32px auto;
+text-align: center;
+}
+.banner-btn{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.banner-img{
+    width: 100%;
+
+}
+/* mobile responisve */
+@media screen and (max-width:576px){
+    .nav-container{
+        flex-direction: column;
+    }
+    /* banner related styles */
+    .header-container{
+        padding: 20px;
+    }
+    .banner-desc{
+        width: 100%;
+margin: 16px auto;
+    }
+    .banner-title{
+    font-size: 1.5rem;
+    padding-top: 20px;
+    }
+    .nav-logo{
+    font-size: 1.5rem;
+    }
+    .banner-btn{
+        margin-bottom: 20px;
+    }
+    .btn-primary{
+        padding: 12px 17px;
+    font-size: 1rem;
+    
+    }
+    
+}
+/* tablet with medium device */
+@media screen and (min-width:577px) and (max-width:992px){
+    .nav-container{
+        flex-direction: column;
+    }
+    /* banner related styles */
+    .header-container{
+        padding: 20px;
+    }
+    .banner-desc{
+        width: 100%;
+margin: 16px auto;
+    }
+    .banner-title{
+    font-size: 1.5rem;
+    padding-top: 20px;
+    }
+    .nav-logo{
+    font-size: 1.5rem;
+    }
+    .banner-btn{
+        margin-bottom: 20px;
+    }
+    .btn-primary{
+        padding: 12px 17px;
+    font-size: 1rem;
+    
+    }
+    
+}
